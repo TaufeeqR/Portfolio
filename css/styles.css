@@ -1,0 +1,158 @@
+/* Nav bar scrolls smoothly from Home to About to Contact */
+
+html {
+    scroll-behavior: smooth;
+}
+/* Styling on the nav bar starts here */
+
+ul  {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+li  {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.three:hover:not(.active) {
+    background-color:lightskyblue;
+}
+li a.two:hover:not(.active) {
+    background-color: lightcoral;
+}
+
+.active {
+    background-color: lightgreen;   
+}
+a.two:link {color: white}
+
+/* Nav styling ends here */
+
+/* Body styling begins here (headings, paragraphs, fonts, font-size, etc*/
+
+body {
+    background-image: url("../img/keyboard.jpg");
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: darken;
+    color: whitesmoke;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+nav {
+    font-size: 20px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 45px;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+    word-spacing: 5px;
+}
+
+h3  {
+    font-size: 28px;
+}
+/* Body styling ends here */
+
+/* Borders, padding, margins and tables around//within certain sections below (about, work experience etc) */
+
+#about {
+    text-align: center;
+    border: lightgreen solid 2px;
+    border-radius: 10px;
+}
+
+.we {
+    border: lightcoral solid 2px;
+    margin: 2px;
+    padding: 18px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li-one {
+    list-style-type: none;
+}
+
+.footer {
+    border: lightblue solid 2px;
+    margin: 2px;
+    padding: 10px;
+}
+
+table {
+    font-size: 20px;
+}
+
+.ul {
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 2px;
+}
+
+section {
+    padding: 10px;
+    margin: 2px;
+}
+
+/* Media Queries below */
+
+@media only screen and (max-width: 450px){
+    #About {
+        text-align: center;
+        border: none;
+    }
+    
+    .we {
+        border: none;
+        margin: 2px;
+        padding: 10px;
+    }
+    .footer {
+        border: none;
+        margin: 2px;
+        padding: 10px;
+    }
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
