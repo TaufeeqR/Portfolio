@@ -15,9 +15,5 @@ In  this project, I used:
 - css
 ```
  
+Live Link --> https://taufeeqr.github.io/portfolio/index.html
 
-```
-# Live Link: 
-
-https://taufeeqr.github.io/portfolio/index.html
-```
