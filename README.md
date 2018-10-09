@@ -17,5 +17,7 @@ In  this project, I used:
  
 
 ```
-# Live Link ----> https://taufeeqr.github.io/portfolio/
+# Live Link: 
+
+https://taufeeqr.github.io/portfolio/index.html
 ```
