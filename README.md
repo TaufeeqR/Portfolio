@@ -28,9 +28,8 @@ and CSS for the styling of my portfolio.
 
 ```
 Below is the live link to my portfolio:
-
-https://taufeeqr.github.io/portfolio/index.html
 ```
+https://taufeeqr.github.io/portfolio/index.html
 
 ## Contributor
 
