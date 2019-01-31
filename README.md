@@ -8,7 +8,7 @@ and CSS for the styling of my portfolio.
 
 ```
 
-## Software Needed
+## SOFTWARE NEEDED
 
 ```
 - Visual Studio Code (VS Code)
@@ -16,7 +16,7 @@ and CSS for the styling of my portfolio.
 - GitBash
 ```
 
-## Software and Scripts used
+## SOFTWARE AND SCRIPTS USED
 ```
 -HTML
 -CSS
@@ -24,14 +24,14 @@ and CSS for the styling of my portfolio.
 -Github
 ```
 
-## Live Link
+## LIVE LINK
 
 ```
 Below is the live link to my portfolio:
 ```
 https://taufeeqr.github.io/portfolio/index.html
 
-## Contributor
+## CONTRIBUTORS
 
 ```
 Taufeeq Rajap
