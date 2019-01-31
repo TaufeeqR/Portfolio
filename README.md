@@ -1,30 +1,34 @@
 # PORTFOLIO
 
 ```
-This is my first submission of my online cv project. 
-In this project, I have used html, css as well as self learning aspects. 
-This is the cv that I will continue to work on and improve during the course,
-as it will be sent out to companies to help me get an internship,
-and help me get a decent job opportunity.
+Curriculum Vitae of Taufeeq Rajap
+In this repository, I have created a portfolio(CV) using my coding 
+skills I have learned. To create my portfolio, I used HTML for my structure 
+and CSS for the styling of my portfolio.  
 
 ```
 
-## 
+## Software Needed
 
-## Software/Technologies Used
-
-
-### In  this project, I used:
 ```
-- HTML
-- CSS
-- VS Code
-- Internet Browser
+- Visual Studio Code (VS Code)
+- Internet Browser (Chrome)
+- GitBash
+```
+
+## Software and Scripts used
+```
+-HTML
+-CSS
+-VS Code
+-Github
 ```
 
 ## Live Link
 
 ```
+Below is the live link to my portfolio:
+
 https://taufeeqr.github.io/portfolio/index.html
 ```
 
