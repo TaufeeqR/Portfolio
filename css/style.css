@@ -150,7 +150,6 @@ header:after {
   text-align: center;
   font-family: sans-serif;
   font-size: 18px;
-  margin: 0;
   height: 30vh;
   color: white;
   padding-bottom: 10px;
@@ -161,7 +160,6 @@ header:after {
 
 .about-container {
   background-color: black;
-  margin: 0;
   -ms-transform: skewY(4deg);
   -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
@@ -176,8 +174,7 @@ header:after {
 .education-heading {
   color: white;
   background-color: black;
-  margin: 0;
-  height: 30vh;
+  height: 20vh;
   -ms-transform: skewY(-4deg);
   -webkit-transform: skewY(-4deg);
   transform: skewY(-4deg);
@@ -203,8 +200,6 @@ header:after {
 .projects-heading {
   color: white;
   background-color: black;
-  margin: 0;
-  height: 20vh;
   padding-top: 5px;
   padding-bottom: 10px;
   text-align: center;
@@ -226,6 +221,21 @@ header:after {
 
 .column img:hover {
   background-color: rgba(0, 0, 0, 0.685);
+}
+
+/* STYLING FOR THE FOOTER SECTION */
+
+.footer {
+  padding-top: 25px;
+}
+
+.contact-heading {
+  color: white;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 30px;
 }
 
 /* ______________ Styling for parallax classes __________ */
