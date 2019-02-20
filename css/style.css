@@ -192,49 +192,41 @@ header:after {
 }
 
 /* STYLING FOR THE WORK EXPERIENCE SECTION */
-.work-heading {
-  color: white;
-  background-color: black;
-  margin: 0;
-  height: 25vh;
-  -ms-transform: skewY(4deg);
-  -webkit-transform: skewY(4deg);
-  transform: skewY(4deg);
-  padding-top: 30px;
-}
 
 .work-container {
   text-align: center;
   font-size: 18px;
 }
 
-.unskew-two {
-  -ms-transform: skewY(-4deg);
-  -webkit-transform: skewY(-4deg);
-  transform: skewY(-4deg);
-  font-size: 40px;
-}
-
 /* STYLING FOR THE MY PROJECTS SECTION */
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.projects-heading {
+  color: white;
+  background-color: black;
+  margin: 0;
+  height: 20vh;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
+.row {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
   padding: 0 4px;
+  padding-top: 25px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
+  height: 100%;
+  width: 100%;
 }
 
+.column img:hover {
+  background-color: rgba(0, 0, 0, 0.685);
+}
 
 /* ______________ Styling for parallax classes __________ */
 
@@ -266,9 +258,6 @@ header:after {
     background-size: cover;
 }
 
-
-
-
 /* _________________________ Media Queries ________________ */
 
 @media only screen and (max-device-width: 1366px) {
@@ -283,5 +272,20 @@ header:after {
     .navbar a {
       float: none;
       display: block;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
     }
   }
