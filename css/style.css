@@ -4,6 +4,7 @@ html {
 
 body {
   background-color: white;
+  margin: 0 auto;
 }
 /* _________Styling for navbar_________ */
 
@@ -47,12 +48,6 @@ h1 {
   padding-top: 50px;
 }
 
-p {
-  text-align: center;
-  font-size: 25px;
-  font-family: sans-serif;
-  margin: 40px 0 0 0;
-}
 
 header {
   align-items: center;
@@ -142,10 +137,14 @@ header:after {
   padding-top: 10px; 
 }
 
+#header-para {
+  text-align: center;
+}
+
 .about-paragraph {
   text-align: center;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   height: 30vh;
   color: white;
@@ -163,17 +162,34 @@ header:after {
   transform: skewY(4deg);
 }
 
-.education-heading {
-  display: flex;
-  width: 100%;
-  font-size: 25px;
-  font-family: sans-serif;
+.education-container {
+  text-align: center;
+  font-size: 18px;
 }
+
+.education-heading {
+  color: white;
+  background-color: black;
+  margin: 0;
+  height: 30vh;
+  -ms-transform: skewY(-4deg);
+  -webkit-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+  padding-top: 30px;
+}
+
+.unskew-one {
+  -ms-transform: skewY(4deg);
+  -webkit-transform: skewY(4deg);
+  transform: skewY(4deg);
+  font-size: 40px;
+}
+
 .education {
-  position: relative;
   text-align: center;
   margin: 0 auto 0 auto;
   transform-origin: top;
+  font-size: 40px;
   color:black;
 }
 
@@ -181,7 +197,7 @@ header:after {
 
 .parallax { 
     /* The image used */
-    background-image: url(../img/f28bf4424379711b182b8739f6fde7de.jpg); 
+    background-image: url(../img/keyboard.jpg); 
 
     /* Set a specific height */
     height: 500px; 
@@ -191,11 +207,12 @@ header:after {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px 10px 10px 0px;
 }
 
 .parallax-2 { 
     /* The image used */
-    background-image: url(../img/forest.jpg); 
+    background-image: url(../img/colorful.jpg); 
 
     /* Set a specific height */
     height: 500px; 
@@ -205,7 +222,10 @@ header:after {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px 10px 10px 10px;
 }
+
+
 
 
 /* _________________________ Media Queries ________________ */
