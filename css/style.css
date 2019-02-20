@@ -10,7 +10,8 @@ body {
 ul {
   list-style-type: none;
 }
-/* _________Styling for navbar_________ */
+
+/* STYLING FOR THE NAVBAR */
 
 .navbar {
     width: 100%;
@@ -42,7 +43,7 @@ ul {
     background-color: #4CAF50;
   }
 
-/* ______________Styling for the header_____________ */
+/* STYLING FOR THE HEADER */
 
 h1 {
   text-align: center;
@@ -114,7 +115,7 @@ header:after {
   animation-delay: 1.4s;
 }
 
-/* _________________ Animations (header) __________________ */
+/* ANIMATIONS HEADER */
 
 @keyframes pop-in {
   0% {
@@ -127,7 +128,7 @@ header:after {
   }
 }
  
-/*____________________ About container styling _______________ */
+/* STYLING FOR THE ABOUT SECTION */
 
 .about-heading {
   text-align: center;
@@ -166,6 +167,7 @@ header:after {
   transform: skewY(4deg);
 }
 
+/* STYLING FOR THE EDUCATION SECTION */
 .education-container {
   text-align: center;
   font-size: 18px;
@@ -189,11 +191,12 @@ header:after {
   font-size: 40px;
 }
 
+/* STYLING FOR THE WORK EXPERIENCE SECTION */
 .work-heading {
   color: white;
   background-color: black;
   margin: 0;
-  height: 30vh;
+  height: 25vh;
   -ms-transform: skewY(4deg);
   -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
@@ -211,6 +214,27 @@ header:after {
   transform: skewY(-4deg);
   font-size: 40px;
 }
+
+/* STYLING FOR THE MY PROJECTS SECTION */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
 
 /* ______________ Styling for parallax classes __________ */
 
