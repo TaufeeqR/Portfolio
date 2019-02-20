@@ -185,12 +185,27 @@ header:after {
   font-size: 40px;
 }
 
-.education {
+.work-heading {
+  color: white;
+  background-color: black;
+  margin: 0;
+  height: 30vh;
+  -ms-transform: skewY(4deg);
+  -webkit-transform: skewY(4deg);
+  transform: skewY(4deg);
+  padding-top: 30px;
+}
+
+.work-container {
   text-align: center;
-  margin: 0 auto 0 auto;
-  transform-origin: top;
+  font-size: 18px;
+}
+
+.unskew-two {
+  -ms-transform: skewY(-4deg);
+  -webkit-transform: skewY(-4deg);
+  transform: skewY(-4deg);
   font-size: 40px;
-  color:black;
 }
 
 /* ______________ Styling for parallax classes __________ */
@@ -207,7 +222,6 @@ header:after {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px 10px 10px 0px;
 }
 
 .parallax-2 { 
@@ -222,7 +236,6 @@ header:after {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px 10px 10px 10px;
 }
 
 
