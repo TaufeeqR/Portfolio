@@ -11,6 +11,10 @@ ul {
   list-style-type: none;
 }
 
+p {
+  text-align: center;
+}
+
 /* STYLING FOR THE NAVBAR */
 
 .navbar {
@@ -227,6 +231,13 @@ header:after {
 
 .footer {
   padding-top: 25px;
+}
+
+.icons {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .contact-heading {
