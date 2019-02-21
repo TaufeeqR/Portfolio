@@ -38,7 +38,7 @@ p {
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
-    background-color:lightblue;
+    background-color:lightgray;
     color: black;
   }
   
