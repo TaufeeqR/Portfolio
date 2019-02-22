@@ -38,13 +38,13 @@ p {
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
-    background-color:lightgray;
+    background-color:#F3F3F3;
     color: black;
   }
   
   /* Current/active navbar link */
   .active {
-    background-color: #4CAF50;
+    background-color: #F3F3F3;
   }
 
 /* STYLING FOR THE HEADER */
@@ -213,7 +213,7 @@ header:after {
 .row {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 10px;
+  grid-gap: 15px;
   padding: 0 4px;
   padding-top: 25px;
 }
