@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: lightgray;
+  background-color: #FBFCFF;
   margin: 0 auto;
 }
 
@@ -250,11 +250,11 @@ header:after {
   font-size: 30px;
 }
 
-/* ______________ Styling for parallax classes __________ */
+/* STYLING THE PARALLAX */
 
 .parallax { 
     /* The image used */
-    background-image: url(../img/keyboard.jpg); 
+    background-image: url(../img/4c2de5df7ec88fb93d5f89cd68600ddd.jpg); 
 
     /* Set a specific height */
     height: 500px; 
@@ -268,7 +268,7 @@ header:after {
 
 .parallax-2 { 
     /* The image used */
-    background-image: url(../img/colorful.jpg); 
+    background-image: url(../img/api.c99e353f761d.gif); 
 
     /* Set a specific height */
     height: 500px; 
@@ -288,26 +288,26 @@ header:after {
   }
 }
 
-
-  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
   }
+}
 
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
+}
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
+}
