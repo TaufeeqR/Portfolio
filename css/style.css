@@ -289,15 +289,78 @@ header:after {
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
     display: block;
   }
+
+  .row {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 0 5%;
+    padding-top: 25px;
+  }
+
+  .about-heading {
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    margin: 0 0 0 0;
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    padding-top: 10px; 
+  }
+
+  .parallax-2 {
+    background-attachment: scroll;
+  }
+
+  .about-container {
+    background-color: black;
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+    height: 100vh;
+  }
+
+  .education-heading {
+    color: white;
+    background-color: black;
+    height: 30vh;
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    padding-top: 30px;
+  }
+
+  .unskew-one {
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+    font-size: 30px;
+    padding-bottom: 1%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 25px;
+    padding-top: 50px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 15px;
+  }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
@@ -310,4 +373,4 @@ header:after {
     flex: 100%;
     max-width: 100%;
   }
-}
+} */
