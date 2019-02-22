@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #FBFCFF;
+  background-color: #F3F3F3;
   margin: 0 auto;
 }
 
@@ -329,7 +329,7 @@ header:after {
     -ms-transform: skewY(4deg);
     -webkit-transform: skewY(4deg);
     transform: skewY(4deg);
-    height: 100vh;
+    height: 110vh;
   }
 
   .education-heading {
