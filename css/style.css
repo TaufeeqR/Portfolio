@@ -15,6 +15,7 @@ p {
   text-align: center;
 }
 
+
 /* STYLING FOR THE NAVBAR */
 
 .navbar {
@@ -197,6 +198,14 @@ header:after {
 .work-container {
   text-align: center;
   font-size: 18px;
+}
+
+/* STYLING FOR THE SKILLS CONTAINER */
+
+.skills-container {
+  text-align: center;
+  font-size: 18px;
+  list-style: none;
 }
 
 /* STYLING FOR THE MY PROJECTS SECTION */
@@ -382,4 +391,4 @@ header:after {
     flex: 100%;
     max-width: 100%;
   }
-} */
+} 
